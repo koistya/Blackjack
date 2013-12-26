@@ -13,6 +13,10 @@ Windows Console application with Microsoft .NET 4.5 / C#.
 
 ![Blackjack UML Class Diagram](http://i.imgur.com/OwhtYDy.png)
 
+### Files & Folders
+
+![Blackjack Solution Structure](http://i.imgur.com/yyMIhtv.png)
+
 ### Source Code
 
 https://github.com/koistya/Blackjack
