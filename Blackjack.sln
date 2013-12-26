@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{3E6A013C-F5FC-419D-AFB6-9160CD78E4D0}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BlackjackModeling", "BlackjackModeling\BlackjackModeling.modelproj", "{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DAB5CC72-85DF-4E29-BE72-D962BC1CD50E}"
+	ProjectSection(SolutionItems) = preProject
+		Common\CommonAssemblyInfo.cs = Common\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{402F7B05-E468-418C-9CFE-8BA8E713A4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack.csproj", "{0621CEF5-C976-4242-8714-C375E953F4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackConsole", "BlackjackConsole\BlackjackConsole.csproj", "{C727340B-BA69-4967-971C-252782E82087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2C55BEED-B504-4AB7-A570-4537A35C3EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Tests", "Blackjack.Tests\Blackjack.Tests.csproj", "{1F71922D-FCEE-460B-957A-E09AC2ECE911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0621CEF5-C976-4242-8714-C375E953F4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0621CEF5-C976-4242-8714-C375E953F4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0621CEF5-C976-4242-8714-C375E953F4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0621CEF5-C976-4242-8714-C375E953F4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C727340B-BA69-4967-971C-252782E82087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C727340B-BA69-4967-971C-252782E82087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C727340B-BA69-4967-971C-252782E82087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C727340B-BA69-4967-971C-252782E82087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F71922D-FCEE-460B-957A-E09AC2ECE911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F71922D-FCEE-460B-957A-E09AC2ECE911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F71922D-FCEE-460B-957A-E09AC2ECE911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F71922D-FCEE-460B-957A-E09AC2ECE911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DA795B2-4F77-40B5-B333-03C7AC9E3DD3} = {3E6A013C-F5FC-419D-AFB6-9160CD78E4D0}
+		{0621CEF5-C976-4242-8714-C375E953F4ED} = {402F7B05-E468-418C-9CFE-8BA8E713A4E9}
+		{C727340B-BA69-4967-971C-252782E82087} = {402F7B05-E468-418C-9CFE-8BA8E713A4E9}
+		{1F71922D-FCEE-460B-957A-E09AC2ECE911} = {2C55BEED-B504-4AB7-A570-4537A35C3EBE}
+	EndGlobalSection
+EndGlobal
