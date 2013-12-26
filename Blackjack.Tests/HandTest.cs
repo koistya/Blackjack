@@ -62,7 +62,7 @@ namespace Blackjack.Tests
             var onChangedCalled = false;
 
             // Act
-            hand.OnChanged += (object sender, EventArgs args) => onChangedCalled = true;
+            hand.Changed += (object sender, EventArgs args) => onChangedCalled = true;
             hand.AddCard(new Card(Rank.Ace, Suite.Club));
 
             // Assert

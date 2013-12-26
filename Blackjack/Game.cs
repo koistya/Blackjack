@@ -22,9 +22,9 @@ namespace Blackjack
             this.AllowedActions = GameAction.None;
         }
 
-        public event EventHandler OnLastStateChanged;
+        public event EventHandler LastStateChanged;
 
-        public event EventHandler OnAllowedActionsChanged;
+        public event EventHandler AllowedActionsChanged;
 
         public Player Player { get; private set; }
 
@@ -43,9 +43,9 @@ namespace Blackjack
                 {
                     this.allowedActions = value;
 
-                    if (this.OnAllowedActionsChanged != null)
+                    if (this.AllowedActionsChanged != null)
                     {
-                        this.OnAllowedActionsChanged(this, EventArgs.Empty);
+                        this.AllowedActionsChanged(this, EventArgs.Empty);
                     }
                 }
             }
@@ -64,9 +64,9 @@ namespace Blackjack
                 {
                     this.lastState = value;
 
-                    if (this.OnLastStateChanged != null)
+                    if (this.LastStateChanged != null)
                     {
-                        this.OnLastStateChanged(this, EventArgs.Empty);
+                        this.LastStateChanged(this, EventArgs.Empty);
                     }
                 }
             }
@@ -78,9 +78,9 @@ namespace Blackjack
             this.Player.Bet = bet;
             this.AllowedActions = GameAction.Deal;
 
-            if (this.OnAllowedActionsChanged != null)
+            if (this.AllowedActionsChanged != null)
             {
-                this.OnAllowedActionsChanged(this, EventArgs.Empty);
+                this.AllowedActionsChanged(this, EventArgs.Empty);
             }
         }
 

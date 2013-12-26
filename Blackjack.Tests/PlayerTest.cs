@@ -77,7 +77,7 @@ namespace Blackjack.Tests
             // Arrange
             var onBalanceChangedCalled = false;
             var player = new Player();
-            player.OnBalanceChanged += (object s, EventArgs e) => onBalanceChangedCalled = true;
+            player.BalanceChanged += (object s, EventArgs e) => onBalanceChangedCalled = true;
 
             // Act
             player.Balance = 10;

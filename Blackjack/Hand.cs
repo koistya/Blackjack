@@ -20,7 +20,7 @@ namespace Blackjack
             this.IsDealer = isDealer;
         }
 
-        public event EventHandler OnChanged;
+        public event EventHandler Changed;
 
         public bool IsDealer { get; private set; }
 
@@ -77,9 +77,9 @@ namespace Blackjack
         {
             this.cards.Add(card);
 
-            if (this.OnChanged != null)
+            if (this.Changed != null)
             {
-                this.OnChanged(this, EventArgs.Empty);
+                this.Changed(this, EventArgs.Empty);
             }
         }
 
@@ -90,9 +90,9 @@ namespace Blackjack
                 {
                     card.Flip();
 
-                    if (this.OnChanged != null)
+                    if (this.Changed != null)
                     {
-                        this.OnChanged(this, EventArgs.Empty);
+                        this.Changed(this, EventArgs.Empty);
                     }
                 }
             });

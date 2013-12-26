@@ -24,11 +24,11 @@ namespace BlackjackConsole
 
             // Initialize and configure a new game
             var game = new Game();
-            game.Player.OnBalanceChanged += OnBalanceChanged;
-            game.OnLastStateChanged += OnLastStateChanged;
-            game.OnAllowedActionsChanged += OnAllowedActionsChanged;
-            game.Dealer.Hand.OnChanged += OnHandChanged;
-            game.Player.Hand.OnChanged += OnHandChanged;
+            game.Player.BalanceChanged += OnBalanceChanged;
+            game.LastStateChanged += OnLastStateChanged;
+            game.AllowedActionsChanged += OnAllowedActionsChanged;
+            game.Dealer.Hand.Changed += OnHandChanged;
+            game.Player.Hand.Changed += OnHandChanged;
             game.Play(balance: 500, bet: 5);
 
             while (true)

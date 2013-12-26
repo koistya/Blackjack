@@ -17,7 +17,7 @@ namespace Blackjack
         private decimal balance;
         private decimal bet;
 
-        public event EventHandler OnBalanceChanged;
+        public event EventHandler BalanceChanged;
 
         public Player()
         {
@@ -37,9 +37,9 @@ namespace Blackjack
                 {
                     this.balance = value;
 
-                    if (this.OnBalanceChanged != null)
+                    if (this.BalanceChanged != null)
                     {
-                        this.OnBalanceChanged(this, EventArgs.Empty);
+                        this.BalanceChanged(this, EventArgs.Empty);
                     }
                 }
             }
