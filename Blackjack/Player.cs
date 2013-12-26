@@ -17,12 +17,12 @@ namespace Blackjack
         private decimal balance;
         private decimal bet;
 
-        public event EventHandler BalanceChanged;
-
         public Player()
         {
             this.Hand = new Hand(isDealer: false);
         }
+
+        public event EventHandler BalanceChanged;
 
         public decimal Balance
         {
@@ -70,7 +70,7 @@ namespace Blackjack
                     this.bet = 0;
                     this.Balance = temp;
                 }
-                else if (value >= 0 && value <= balance + this.bet)
+                else if (value >= 0 && value <= this.balance + this.bet)
                 {
                     var temp = this.balance + this.bet;
                     this.bet = value;

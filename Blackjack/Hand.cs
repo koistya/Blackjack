@@ -85,17 +85,19 @@ namespace Blackjack
 
         public void Show()
         {
-            this.cards.ForEach(card => {
-                if (!card.IsFaceUp)
+            this.cards.ForEach(
+                card =>
                 {
-                    card.Flip();
-
-                    if (this.Changed != null)
+                    if (!card.IsFaceUp)
                     {
-                        this.Changed(this, EventArgs.Empty);
+                        card.Flip();
+
+                        if (this.Changed != null)
+                        {
+                            this.Changed(this, EventArgs.Empty);
+                        }
                     }
-                }
-            });
+                });
         }
 
         public void Clear()
