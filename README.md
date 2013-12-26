@@ -9,7 +9,7 @@ Windows Console application with Microsoft .NET 4.5 / C#.
 
 ### UML Class Diagram
 
-![Blackjack UML Class Diagram](http://i.imgur.com/z8mIRdu.png)
+![Blackjack UML Class Diagram](http://i.imgur.com/OwhtYDy.png)
 
 ### Source Code
 
