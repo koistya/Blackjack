@@ -49,4 +49,27 @@
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackjackConsole\BlackjackConsole.csproj">
+      <Name>BlackjackConsole</Name>
+      <Project>{c727340b-ba69-4967-971c-252782e82087}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Blackjack\Blackjack.csproj">
+      <Name>Blackjack</Name>
+      <Project>{0621cef5-c976-4242-8714-c375e953f4ed}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

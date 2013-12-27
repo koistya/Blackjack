@@ -9,6 +9,10 @@ Windows Console application with Microsoft .NET 4.5 / C#.
 
 ![Blackjack Console Application](http://i.imgur.com/sb2aj6G.gif)
 
+### Layer Diagram
+
+![Blackjack Application Layer Diagram](http://i.imgur.com/jUPXFB3.png)
+
 ### UML Class Diagram
 
 ![Blackjack UML Class Diagram](http://i.imgur.com/OwhtYDy.png)

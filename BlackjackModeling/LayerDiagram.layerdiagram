@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="708086c3-e622-46af-aec0-6da92981f9e3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="2006c773-183f-46b2-b992-79ccb7a986cd" name="Presentation">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a9bd7344-35a0-441b-9371-caf45db8c4ba" direction="Forward">
+          <layerMoniker Id="5235ba7c-cea8-45d7-a4ee-7625e8dc92d0" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="4b644273-ec81-450f-ae45-6225ca0c46ad" name="Console Application&#xD;&#xA;(BlackjackConsole)">
+          <references>
+            <reference Id="7b9d0cd4-5e7c-4989-b057-5820022686e6" name="BlackjackConsole">
+              <ArtifactNode Label="BlackjackConsole" Category="CodeSchema_Project" Id="(Assembly=../BlackjackConsole/BlackjackConsole.csproj)" />
+              <ExpandedNode Id="(Assembly=BlackjackConsole)" Label="BlackjackConsole.exe" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="5235ba7c-cea8-45d7-a4ee-7625e8dc92d0" name="Business Logic">
+      <childLayers>
+        <layer Id="d8e4a274-9b34-41cc-9687-1c46bc238cce" name="Blackjack Class Library&#xD;&#xA;(Blackjack)">
+          <references>
+            <reference Id="c6dab1af-f05f-48ac-9e53-faea80b9438b" name="Blackjack">
+              <ArtifactNode Label="Blackjack" Category="CodeSchema_Project" Id="(Assembly=../Blackjack/Blackjack.csproj)" />
+              <ExpandedNode Id="(Assembly=Blackjack)" Label="Blackjack.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
