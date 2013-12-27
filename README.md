@@ -3,7 +3,8 @@
 This is a simplified version of the [Blackjack](http://en.wikipedia.org/wiki/Blackjack) card game implemented as a
 Windows Console application with Microsoft .NET 4.5 / C#.
 
-*Time spent on this project: ~15 h.*
+*Time spent on this project: ~15 h. It's not polished and feature rich. The [challenge](https://twitter.com/koistya/status/416285409484607490) was to come up
+with a working version in a short period of time.*
 
 ### Demo
 
