@@ -37,6 +37,9 @@
     <Content Include="ModelDefinition\Package_1516.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="RelationshipsGraph.dgml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ClassDiagram.classdiagram">
       <SubType>Content</SubType>

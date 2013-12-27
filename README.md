@@ -14,6 +14,10 @@ with a working version in a short period of time.*
 
 ![Blackjack Application Layer Diagram](http://i.imgur.com/jUPXFB3.png)
 
+### Relationships Graph
+
+![Blackjack Application Relationships Graph](http://i.imgur.com/hmXD7FI.png)
+
 ### UML Class Diagram
 
 ![Blackjack UML Class Diagram](http://i.imgur.com/OwhtYDy.png)
